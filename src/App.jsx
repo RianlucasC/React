@@ -1,9 +1,10 @@
+import FirstComponent from "./components/FirstComponent"
 
 function App() {
 
   return (
     <>
-      <h1>teste</h1>
+      <FirstComponent/>
     </>
   )
 }
