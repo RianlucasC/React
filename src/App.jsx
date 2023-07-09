@@ -3,6 +3,7 @@ import FirstComponent from "./components/FirstComponent"
 import RenderingLists from "./components/RenderingLists"
 import RespondingToEvents from "./components/RespondingToEvents"
 import UsingProps from "./components/UsingProps"
+import UsingStates from "./components/UsingStates"
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <ConditionalRendering display={true}/>
       <RenderingLists/>
       <RespondingToEvents/>
+      <UsingStates/>
     </>
   )
 }
